@@ -1,3 +1,6 @@
+> [!WARNING]
+> This is a temporary fix fork for the Dynamic Tariffs mod for Starsector, see the original [here](https://github.com/jsbursik/DynamicTariffs).
+
 # Dynamic Tariffs
 
 This is a utility mod for [Starsector](https://fractalsoftworks.com/) that dynamically changes tariffs based on your current reputation with the faction that owns the market.
