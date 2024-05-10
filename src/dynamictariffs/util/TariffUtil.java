@@ -101,7 +101,7 @@ public class TariffUtil extends BaseCampaignEventListener {
                 tariff = percents[i] - ((1 / stepAmt) * (repValue - RepValues[i]));
                 if (isCommissioned(market) && SettingsUtil.commission) {
                     tariff -= SettingsUtil.commDiscount;
-                    tariff = tariff < 0f ? -0.3f : tariff;
+                    tariff = tariff < 0f ? 0f : tariff;
                 }
                 tariff = -(0.3f - tariff);
                 market.getTariff().modifyFlat("dynamictariffs", tariff);
